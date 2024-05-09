@@ -1,0 +1,45 @@
+.play {
+    background-image: url(pics/play.svg);
+    width: 100px;
+    height: 100px;
+}
+
+.pause {
+    background-image: url(pics/pause.svg);
+    width: 100px;
+    height: 100px;
+}
+
+.mute {
+    background-color: LightSteelBlue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.mute p {
+    margin: 0;
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fullscreen {
+    background-color: NavajoWhite;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.fullscreen p {
+    margin: 0;
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.power-block {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
